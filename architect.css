@@ -43,7 +43,7 @@
 
 .brand{
      font-size: 3rem;
-     font-weight: 600;
+     font-weight: 700;
 }
 
 .dark-2{
@@ -100,4 +100,28 @@
 
 .banner img{ 
     margin-bottom: 45px;
+    border-radius: 8px;
+}
+
+
+@media screen and (max-width: 576px) {
+    
+    .navbar{
+         flex-direction: column;
+         gap: 1px;
+    }
+      
+    .banner .banner-container{
+         max-width: 100%;
+    }
+
+    .brand{
+         font-size: 3rem;
+    }
+
+    .banner img{
+         width: 100%;
+    }
+
+
 }
