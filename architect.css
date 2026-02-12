@@ -58,6 +58,10 @@
      background-color: #FF900E10;
 }
 
+.orange{
+     color: #FF900E;
+}
+
 
 
 .banner{
@@ -103,6 +107,51 @@
     border-radius: 8px;
 }
 
+main{
+     max-width: 1440px;
+     margin: 0 auto;
+}
+
+.features-container{
+     display: flex;
+     gap: 73px;
+     align-items: center;
+}
+
+.feature-img{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     max-width: 100%;
+     row-gap: 24px;
+     column-gap: 24px;
+     margin-top: 85px;
+
+}
+
+.features-text{
+     max-width: 530px;
+}
+
+.features-text span{
+     font-size: 3rem;
+}
+
+.s-1{
+     font-weight: 500;
+}
+
+.s-2{
+     font-weight: 600;
+}
+
+.features-text p{
+     font-size: 1rem;
+     font-weight: normal;
+     line-height: 26px;
+}
+
+
+
 
 @media screen and (max-width: 576px) {
     
@@ -123,5 +172,15 @@
          width: 100%;
     }
 
-
+    .feature-img{
+         grid-template-columns: repeat(1,1fr);
+    }
+    
+    .features-container{ 
+        flex-direction: column;
+    }
+           
+    .features-text{
+         text-align: center;
+    }
 }
