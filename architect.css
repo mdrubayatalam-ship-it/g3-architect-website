@@ -149,7 +149,40 @@ main{
      font-weight: normal;
      line-height: 26px;
 }
+ 
+  .love-container{
+       
+    gap: 136px;
+     
+  }
 
+  .love-feature h3{
+     font-size: 3rem;
+     font-weight: 700;
+     border-left: 5px solid #FF900E;
+     padding-left: 21px;
+  }
+
+  .love-feature{
+     width: 580px;
+     margin-top: 169px;
+  }
+
+  .love-feature p{
+     margin-bottom: 30px;
+  }
+
+ .love-card{
+     border: none;
+     background-color: #FFFF;
+     padding: 30px;
+     border-radius: 8px;
+     margin-bottom: 20px;
+     box-shadow: 0 4px 30px 0 #00000006;
+ }
+ .love-img{
+     margin-top: 130px;
+ }
 
 
 
@@ -182,5 +215,21 @@ main{
            
     .features-text{
          text-align: center;
+    }
+
+    .love-container{
+         flex-direction: column-reverse;
+         gap: 10px;
+    }
+
+    .love-img img{
+        max-width: 100%;
+    }
+    .love-feature{ 
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
     }
 }
