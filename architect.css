@@ -99,8 +99,24 @@
      padding: 21px;
      font-size: 1.25rem;
      font-weight: 700;
+     transition: 0.5s;
      
 }
+
+.btn:hover{
+     background-color: #FFFF;
+     border: 1px solid #FF900E;
+     color: #727272;
+}
+
+.btn:active{
+     background-color: #FF900E;
+     border: 1px solid #FFFF;
+     color: #727272;
+}
+
+
+
 
 .banner img{ 
     margin-bottom: 45px;
@@ -179,7 +195,10 @@ main{
      border-radius: 8px;
      margin-bottom: 20px;
      box-shadow: 0 4px 30px 0 #00000006;
+     transition: 0.2s;
  }
+
+  
  .love-img{
      margin-top: 130px;
  }
@@ -252,6 +271,19 @@ main{
      gap: 154px;
      justify-content: center;
      margin-top: 50px;
+ }
+
+ .footer-container{
+     max-width: 1440px;
+     margin: 0 auto;
+     background-color: #FFF4E7;
+     margin-top: 169px;
+     margin-bottom: 100px;
+ }
+
+ .footer-tittle{
+     padding: 10px;
+     text-align: center;
  }
 
 
